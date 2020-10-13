@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>facebook_logo</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M9.4078125,24 L9.4078125,13.265625 L5.8125,13.265625 L5.8125,9 L9.4078125,9 L9.4078125,5.6390625 C9.4078125,1.9875 11.6390625,0 14.896875,0 C16.4578125,0 17.7984375,0.1171875 18.1875,0.16875 L18.1875,3.984375 L15.928125,3.984375 C14.15625,3.984375 13.8140625,4.828125 13.8140625,6.0609375 L13.8140625,9 L17.8125,9 L17.2640625,13.265625 L13.8140625,13.265625 L13.8140625,24" id="path-2"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social-Media" transform="translate(-5.000000, -6.000000)">
+            <g id="facebook_logo" transform="translate(0.000000, 6.000000)" filter="url(#filter-1)">
+                <g>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <g id="Group" mask="url(#mask-3)" fill="#242A42">
+                        <g id="Color">
+                            <rect id="Black" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,152 @@
+.Reply-Background-Macro {
+    background-color: white;
+    display: flex;
+    align-content: flex-end;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+.Reply-Background-Sub-Macro {
+    max-width: 650px;
+    min-width: 610px;
+    width: 100%;
+    background-color:white;
+    border-radius: 13px;
+    margin-top: 24px;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+    min-height: 120px;
+}
+
+.Reply-Header-Container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.Reply-Header-Sub-Container {
+    width: Auto;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 24px 0px 0px 20px;
+}
+
+.Reply-Avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.Reply-Avatar-Container {
+    align-items: center;
+}
+
+.Reply-User-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: inherit;
+}
+
+.Reply-User-Name {
+    font-size: 28px;
+    color: #4a4a4a;
+    font-family: Comfortaa-Bold;
+    display: flex;
+    align-self: center;
+}
+
+.Reply-Date-Container {
+    display: flex;
+    height: 24px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+
+.Reply-Date {
+    font-size: 18px;
+    color: #4a4a4a;
+    font-family: Comfortaa-Bold;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.Reply-Chevron {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding-left: 24px;
+    width: 26px;
+    height: 26px;
+    color: #4a4a4a;
+}
+
+.Reply-Content-Container {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.Reply-Content-Sub-Container {
+    width: inherit;
+    height: 150px;
+}
+
+.Reply-Reply-Line {
+    border-right: 2px solid #979797;
+    height: 100%;
+    width: 40px;
+}
+.Reply-Reply-Line-Spacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+}
+
+.Reply-Reply-Line-Container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: inherit;
+    width: 50px;
+}
+
+.Reply-Reply-Line-Sub-Container {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.Reply-Text {
+    font-size: 20px;
+    color: #4a4a4a;
+    font-family: Comfortaa-Bold;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+.Message-Reply-Header-Label {
+    font-size: 20px;
+    color: #4a4a4a;
+    font-family: Comfortaa-Regular;
+    line-height: 32px;
+    padding-bottom: 10px;
+    padding-top: 24px;
+}

@@ -1,0 +1,46 @@
+.Toolbar-Macro-Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+    justify-items: space-between;
+    padding-top: 15px;
+    align-items: center;
+    
+}
+
+.Toolbar-Sub-Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    height: inherit;
+}
+
+.Toolbar-item-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    padding-inline-end: 24px;
+
+}
+.Toolbar-item-Icon {
+    display: flex;
+    flex-direction: row;
+    padding-inline-end: 8px;
+    align-self: center;
+}
+
+.Toolbar-item-Tag {
+    align-content: flex-end;
+    justify-content: center;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Toolbar-item-Label {
+    font-size: 18px;
+    align-self: center;
+}
